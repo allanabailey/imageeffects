@@ -1,3 +1,11 @@
+//image taken from the DukeLearnToProgram (DLTP) site - file can be replaced with any.
+//https://www.dukelearntoprogram.com/course1/example/index.php
+
+//new SimpleImage is a method imported from the Edu Duke library
+//Documentation found: https://www.dukelearntoprogram.com/course1/doc/
+
+//Simple method to add a border regardless of border thickness or image chosen by user.
+
 var img = new SimpleImage("smallpanda.png");
 var w = img.getWidth();
 var h = img.getHeight();
