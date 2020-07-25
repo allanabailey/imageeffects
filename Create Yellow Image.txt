@@ -1,9 +1,0 @@
-// Create an image 200px by 200px and turn all pixels yellow.
-var yBox = new SimpleImage(200,200);
-for(var pixel of yBox.values()) {
-    pixel.setRed(255);
-    pixel.setGreen(255);
-    pixel.setBlue(0);
-}
-
-print(yBox);
